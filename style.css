@@ -11,7 +11,7 @@ img {
 
 /*
 Colors used:
-Primary Color (Deep Jungle Green): #275A55;
+Primary Color (Deep Jungle Green): #275a55;
 Secondary Color (Jungle Green): #2B685D;
 Tertiary Color (Crayola): #F7C766;
 Project Background Color (white): #FFFFFF
@@ -51,16 +51,16 @@ Project Background Color (white): #FFFFFF
 
 
   a {
-    color: #ff7f50;
+    color: #275a55;
     text-decoration: none; /* No underlining */
   }
 
   a:visited { /* visited link */
-    color: #ff7f50;
+    color: #275a55;
   }
 
   a:hover {
-    color: #cc6540;
+    color: #f7c766;
     text-decoration: underline; /* Underlining when hovering over a link */
   }
 
@@ -70,13 +70,13 @@ Project Background Color (white): #FFFFFF
 
   a:hover,
   a:focus {
-    color: #cc6540;
+    color: #f7c766;
     text-decoration: underline;
   }
 
   .button {
     display: inline-block; /* */
-    background-color: #ff7f50;
+    background-color: #275a55;
     color: #ffffff; /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
@@ -92,38 +92,38 @@ Project Background Color (white): #FFFFFF
 
   .button.contact {
   background-color: transparent;
-  color: #ff7f50;
+  color: #275a55;
   text-transform: uppercase;
-  border: 2px solid #ff7f50;
+  border: 2px solid #275a55;
 }
 
 .button.contact:hover {
-  background-color: #ff7f50;
+  background-color: #275a55;
   color: #ffffff;
 }
 
 
 .button.cv {
 background-color: transparent;
-color: #ff7f50;
+color: #275a55;
 text-transform: uppercase;
-border: 2px solid #ff7f50;
+border: 2px solid #275a55;
 }
 
 .button.cv:hover {
-background-color: #ff7f50;
+background-color: #275a55;
 color: #ffffff;
 }
 
 
 .button.email {
 background-color: transparent;
-color: #ff7f50;
+color: #275a55;
 text-transform: uppercase;
-border: 2px solid #ff7f50;
+border: 2px solid #275a55;
 }
 
 .button.email:hover {
-background-color: #ff7f50;
+background-color: #275a55;
 color: #ffffff;
 }
