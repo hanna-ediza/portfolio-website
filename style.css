@@ -5,18 +5,25 @@
 
 }
 
-img {
-  width: 100%;
-}
-
 /*
 Colors used:
-Primary Color (Deep Jungle Green): #275a55;
-Secondary Color (Jungle Green): #2B685D;
-Tertiary Color (Crayola): #F7C766;
-Project Background Color (white): #FFFFFF
+Primary color (Deep Jungle Green): #275a55;
+Secondary color (Jungle Green): #2B685D;
+Tertiary color (Crayola): #F7C766;
+Project background color (White): #FFFFFF
 */
 
+header {
+  background-color: #275a55;
+  padding: 10px 0;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a;
+  text-align: center;
+  position: relative;
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.75);
+}
 
   body {
     background-color: #ffffff;
@@ -26,8 +33,10 @@ Project Background Color (white): #FFFFFF
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
     color: #f7c766;
   }
-
-  h1, h2, h3, h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     line-height: 1.4;
   }
   h1 {
@@ -49,7 +58,12 @@ Project Background Color (white): #FFFFFF
     font-weight: 400;
   }
 
+/*images*/
+  img {
+    width: 100%;
+  }
 
+/*links*/
   a {
     color: #275a55;
     text-decoration: none; /* No underlining */
@@ -74,6 +88,7 @@ Project Background Color (white): #FFFFFF
     text-decoration: underline;
   }
 
+/*buttons*/
   .button {
     display: inline-block; /* */
     background-color: #275a55;
@@ -95,35 +110,139 @@ Project Background Color (white): #FFFFFF
   color: #275a55;
   text-transform: uppercase;
   border: 2px solid #275a55;
-}
+  }
 
-.button.contact:hover {
+  .button.contact:hover {
+    background-color: #275a55;
+    color: #ffffff;
+  }
+
+  .button.cv {
+  background-color: transparent;
+  color: #275a55;
+  text-transform: uppercase;
+  border: 2px solid #275a55;
+  }
+
+  .button.cv:hover {
   background-color: #275a55;
   color: #ffffff;
+  }
+
+  .button.email {
+  background-color: transparent;
+  color: #275a55;
+  text-transform: uppercase;
+  border: 2px solid #275a55;
+  }
+
+  .button.email:hover {
+  background-color: #275a55;
+  color: #ffffff;
+  }
+
+/*layout styling*/
+.container {
+  padding: 0 15px;
 }
 
-
-.button.cv {
-background-color: transparent;
-color: #275a55;
-text-transform: uppercase;
-border: 2px solid #275a55;
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
-.button.cv:hover {
-background-color: #275a55;
-color: #ffffff;
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a; }
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
-
-.button.email {
-background-color: transparent;
-color: #275a55;
-text-transform: uppercase;
-border: 2px solid #275a55;
+.col-md-6 {
+  width: 50%; /* 50% of the container  100 * 6/12 = 50 */
 }
 
-.button.email:hover {
-background-color: #275a55;
-color: #ffffff;
+.col-md-3 {
+  width: 25%; /* 50% of the container  100 * 3/12 = 25 */
 }
+
+[class*="col-"] {
+  float: left;
+}
+
+.logo {
+  max-width: 250px;
+  margin-top: 15px;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+main {
+  padding-top: 133px;
+}
+
+/*hero styling*/
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1 {
+  text-align: center; /* Centers text */
+  margin: 0;
+}
+
+#hero h2 {
+  text-align: center; /* Centers text */
+}
+
+#hero h3 {
+  text-align: left;
+}
+#hero p {
+  text-align: left;
+}
+
+/*footer styling*/
+#contact h3 {
+  text-align: center;
+}
+#contact p {
+  text-align: center;
+}
+
+.linkedin {
+  width: 50%;
+  float: right;
+  text-align: left;
+  padding-left: 10px;
+}
+
+/*about page styling*/
+.aboutme h2 {
+  text-align: center;
+}
+
+/*moon page styling*/
