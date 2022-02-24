@@ -18,8 +18,7 @@ header {
   padding: 10px 0;
   margin: 10px;
   border-bottom: 3px solid #4a4a4a;
-  text-align: center;
-  position: relative;
+  position: fixed;
   -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.75);
@@ -33,6 +32,11 @@ header {
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
     color: #f7c766;
   }
+
+  main {
+    padding-top: 99px;
+  }
+
   h1,
   h2,
   h3,
@@ -94,6 +98,7 @@ header {
     background-color: #275a55;
     color: #ffffff; /* needed to override the default link color */
     font-weight: 400;
+    text-decoration: none;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #994c30; /* width of the border, type, color */
@@ -150,7 +155,7 @@ header {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
-#work .row {
+#work.row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a; }
 
@@ -168,6 +173,8 @@ header {
 
 [class*="col-"] {
   float: left;
+  padding: 0 10px;
+  padding: 10px 0;
 }
 
 .logo {
@@ -207,6 +214,11 @@ main {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
+}
+
+#hero span {
+  display: block;
 }
 
 #hero h1 {
@@ -246,3 +258,43 @@ main {
 }
 
 /*moon page styling*/
+
+
+/*media queries*/
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+      width: auto;
+      float: right;
+      margin-top: 4px;
+    }
+  }
+
+  .row::after {
+      content: "";
+      clear: both;
+      display: table;
+}
+
+  #about-page h3 {
+      margin-top: 0;}
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
