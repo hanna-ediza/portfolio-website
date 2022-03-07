@@ -14,124 +14,253 @@
   </head>
 
   <body>
-    <header>
-      <div class="container">
-        <div class="navtoggle" id="myNavtoggle">
+<!--start header section-->
+      <header>
+        <div class="container">
+          <div class="navtoggle" id="myNavtoggle">
+            <a href="index.html">
+              <img src="img/logo.svg" class:"icon" width="12" height="12"/>
+            </a>
+  <!--start navigation section-->
+          <nav>
+            <ul class="navigation">
+              <li><a href="#index.html">Work</a></li>
+              <li><a href="#about.html">About</a></li>
+              <li><a href="files/Hanna Daphne Ediza CV.pdf" target="_blank">Resume</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li><a href="#style.css"></a></li>
+            </ul>
+          </nav>
+  <!--end navigation section-->
+        </div>
+      </header>
+<!--end header section-->
 
-            <img src="img/logo.svg" alt="Logo" class="logo">
+<!--start moon section-->
+  <!--section 1-->
+    <h2 id="index.html">Work</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-7">
+          <picture>
+            <source srcset="img/moon app/moon logo.png" media="(max-width:767px)"/>
+          </picture>
+          <h4>UX/UI Case Study</h4>
+          <h5>Project Duration: 10 months</h5>
+          <p>Moon is a responsive digital wallet app that allows users to store multiple financial accounts in one place, customize budgets, schedule transactions, and view expenses reports. The app acts as a secure bank account and transactional card whenever, wherever, making it 'your wallet on the go'.</p>
+        </div>
 
-        <nav>
-          <ul class="navigation">
-            <li><a href="#index.html">Work</a></li>
-            <li><a href="#index.html#projectpage">Project Page</a></li>
-            <li><a href="#about.html">About</a></li>
-            <li><a href="#about.html#skills">Relevant Skills</a></li>
-            <li><a href="#about.html#tools">Tools</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#style.css"></a></li>
-          </ul>
-        </nav>
+        <div class="col-md-6 col-lg-5">
+            <picture>
+              <img src="img/moon app/moon thumbnail.png" alt="thumbnail" class="thumbnail"/>
+            </picture>
+        </div>
+      </div>
 
-    </div>
-  </header>
-  <br>
-  <span></span>
+  <!--section 2-->
+      <div class="section 2">
+          <h3 style="text-align:center;">Problem Statement</h3>
+            <p style="text-align:center;">Users find themselves shopping a lot more online than usual as social restrictions due to the pandemic ceased them from enjoying the liberty to go out, hang out with family and friends, and do any kinds of activities. As a result, users' financial health ends up being out of shape as they could not control their shopping habits and overspend.</p>
 
-<h2 id="index.html">Work</h2>
+          <h3 style="text-align:center;">Solution</h3>
+            <p style="text-align:center;">A digital solution that can track users' spending to keep them informed of their monthly savings and help them determine what they need to work on to reach their financial goals. Budget customization is one of the many features that can help create good money habits, have a solid financial plan, and reach savings goals.</p>
+      </div>
 
-<li><a href="#" class="button">Read more</a></li>
+  <!--section 3-->
+      <div>
+          <h3>Design Process</h3>
+            <picture>
+              <img src="img/moon app/design process.png" alt="design thinking process"/>
+            </picture>
+      </div>
 
-<picture>
-  <img src="img/moon app/onboarding1.png" alt="Moon App Photo">
-</picture>
+  <!--section 4-->
+      <div class="section 4">
+            <picture>
+              <img src="img/moon app/discover.png" alt="design process"/>
+            </picture>
+      </div>
 
-<h3>Moon App</h3>
+  <!--section 5-->
+      <div>
+          <h3>Competitive Analyses</h3>
+          <p>As part of the first key steps in planning a successful design, I conducted a competitive analysis of the two main competitors - GooglePay and PayPal - to give me an insight into what might resonate with users in the market.</p>
+            <picture>
+              <img src="img/moon app/googlepay.png" alt="design thinking process"/>
+              <img src="img/moon app/paypal.png" alt="design thinking process"/>
+            </picture>
+      </div>
 
-  <p>Moon is a responsive digital wallet app that allows users to store multiple financial accounts in one place, customize budgets, schedule transactions, and view expenses reports. The app acts as a secure bank account and transactional card whenever, wherever, making it 'your wallet on the go'.</p>
+  <!--section 6-->
+      <div>
+          <h3>User Research</h3>
+          <p id="Research Goals">The two methods of user research - Surveys and Interviews - were conducted to collect qualitative and quantitative data. Survey method was used to gain initial insights from users and interview method for a more in depth research.</p>
+            <ul>
+              <li>To gain insights into users’ behaviours with existing digital wallet apps.</li>
+              <li>To determine the users’ purpose of utilizing a digital wallet app.</li>
+              <li>To better understand the users’ deciding factors when choosing digital wallet apps.</li>
+            </ul>
+            <picture>
+              <img src="img/moon app/survey.png" alt="design thinking process"/>
+            </picture>
+      </div>
 
-<h4 id="index.html#projectpage">About Moon</h4>
+  <!--section 7-->
+  <!--ADD INTERACTIVE QUOTES-->
 
-<picture>
-  <img src="img/moon app/onboarding1.png" alt="Onboarding Page 1">
-  <img src="img/moon app/onboarding2.png" alt="Onboarding Page 2">
-  <img src="img/moon app/onboarding3.png" alt="Onboarding Page 3">
-  <img src="img/moon app/onboarding4.png" alt="Onboarding Page 4">
-</picture>
 
-  <p>MOON is a responsive digital wallet app that allows users to store multiple financial accounts in one place, customize budgets, schedule transactions, and view expenses reports. The app acts as a secure bank account and transactional card whenever, wherever, making it 'your wallet on the go'.</p>
-  <p>It is designed for functionality, with a top focus on security, aiming to assist users to save money while spending regularly. Users will benefit from its realistic budget tips and indicators and minimalistic design. </p>
+  <!--section 8-->
+      <div>
+          <h3>Affinity Mapping</h3>
+          <p>The stage where I analyze users' needs and pain points by sorting and mapping out data collected from the user surveys and interviews. I used these data to find out users' behaviors/attitudes, needs/goals, frustrations, and more.</p>
+            <picture>
+              <img src="img/moon app/affinity mapping.png" alt="design thinking process"/>
+            </picture>
+          <h4>Insights</h4>
+            <ul>
+              <li>Some users use different e-wallet apps for different things. Since every user behaves differently, a way to tailor their needs is to allow for customization. Users will more likely to use an app if it serves them specific purposes.</li>
+              <li>A simple UI can help speed up every transaction, which can be a major factor for using and staying with our app.</li>
+              <li>A multi-layer security when using an e-wallet app will transmit the feeling of security to users.</li>
+              <li>Transparency in data use is key to turn users’ concerns into an opportunity to build trust in our app.</li>
+              <li>Users prefer to see a categorized overview of their expenses. As this seems to be an important feature to users, we can focus on accurately classifying categories rather than having a general list of categories.</li>
+              <li>Though most users are not comfortable storing all cards in one place, there are opportunities to convince them to use our app; e.g., advantages of not having to log in to different apps to access different bank cards, providing an overview of all their money across multiple accounts, eliminating transaction fees, and more.</li>
+            </ul>
 
-<h4 id="index.html#projectpage">Role</h4>
+  <!--section 9-->
+      <div class="section 4">
+            <picture>
+              <img src="img/moon app/define.png" alt="design process"/>
+            </picture>
+      </div>
 
-<ul>
-  <li>UX/UI Designer</li>
-  <li>10 months</li>
-  <li>Figma, Marvel, OptimalSort, InVision</li>
-</ul>
+  <!--section 10-->
+      <div>
+          <h3>User Personas</h3>
+          <p>Informed by research, I created two user personas that represent two different audience groups. You will find relevant information of the user personas that addressess the key focuses of a design persona in this section. In addition, you will find the user journey and user flow for each user persona that outlines their goals and expectation.</p>
+            <picture>
+              <img src="img/moon app/user flow1.png" alt="design thinking process">
+              <img src="img/moon app/user flow2.png" alt="design thinking process">
+            </picture>
 
-<h4 id="index.html#projectpage">Problem Statement</h4>
+  <!--section 11-->
+      <div class="section 4">
+            <picture>
+              <img src="img/moon app/ideate.png" alt="design process"/>
+            </picture>
+      </div>
 
-  <p>Users find themselves shopping a lot more online than usual as social restrictions due to the pandemic ceased them from enjoying the liberty to go out, hang out with family and friends, and do any kinds of activities. As a result, users' financial health ends up being out of shape as they could not control their shopping habits and overspend.</p>
+  <!--section 12-->
+      <div>
+          <h3>Card Sorting</h3>
+          <p>I used the card sorting method to better design my information architecture. This method helped me organized the app's information and make it more intuitive. The digital test was conducted through OptimalSort with 8 participants.</p>
+            <picture>
+              <img src="img/moon app/similarity matrix.png" alt="design thinking process">
+            </picture>
+          <h4>Analysis</h4>
+            <ul>
+              <li>There are three main clusters (green box) found to have related pairings – information from boxes #1 and #3 can be seen under ‘Account’ in my current Sitemap below Tier 2, while #2 shows a combined information from ‘Budget’, ‘Reports’ and ‘Transactions’.</li>
+              <li>Information found on #1 and #3 can potentially be grouped into one as there is an apparent interrelation here (yellow lines). Hence, validating my assumption in terms of my site structure in this particular area.</li>
+              <li>Generally, I believe that most of my assumptions in terms of my site structure were validated by majority of the participants during this Open Card Sort exercise. Change/ adding of wordings or names might also do good.</li>
+            </ul>
 
-<h4 id="index.html#projectpage">Solution</h4>
+  <!--section 13-->
+      <div>
+          <h3>Sitemap</h3>
+          <p>After the card sorting phase, below you will find the refined sitemap - I branched off each page of the app and added the sub-pages, color-coded them to introduce different information hierarchy.</p>
+            <picture>
+              <img src="img/moon app/sitemap.png" alt="design thinking process">
+            </picture>
 
-  <p>A digital solution that can track users' spending to keep them informed of their monthly savings and help them determine what they need to work on to reach their financial goals. Budget customization is one of the many features that can help create good money habits, have a solid financial plan, and reach savings goals.</p>
+  <!--section 14-->
+      <div class="section 4">
+            <picture>
+              <img src="img/moon app/design.png" alt="design process"/>
+            </picture>
+      </div>
 
-<h4 id="index.html#projectpage">Overall Process</h4>
+  <!--section 15-->
+      <div>
+          <h3>Low- to Mid-Fidelity Prototyping</h3>
+          <p>To start fleshing out interaction ideas and forming a flow to my prototypes, I did hand sketching. This method helped me to really focus on the high-level functionality of the app while not pondering on other details like spacing and colors.</p>
 
-  <p>Competitive analyses were first performed to help me spot weaknesses in a competitor’s user experience and to give me insights into what might resonate with users in the market.</p>
-  <p>Next, I conducted user research – a survey that received 51 responses, and an interview with 5 participants – to gather information on users’ behavior, motivations, and friction points towards existing products. These early stages helped me define my user personas, which represent two different audience groups, as well as create user flows that outline their goals and expectations.</p>
+          <div class="section 15">
+              <h3 style="text-align:center; font-style:italic">Transforming SKETCHES into...</h3>
+                <picture>
+                  <img src="img/moon app/sketches.png" alt="design thinking process">
+                </picture>
+          </div>
 
-<picture>
-    <img src="img/moon app/user flow1.png" alt="Sophia's User Flow">
-    <img src="img/moon app/user flow2.png" alt="Jonas' User Flow">
-</picture>
+          <div  class="section 15">
+              <h3 style="text-align:center; font-style:italic">...a clickable PROTOTYPE</h3>
+                <picture>
+                  <img src="img/moon app/prototype1.png" alt="design thinking process">
+                  <img src="img/moon app/prototype2.png" alt="design thinking process">
+                </picture>
+          </div>
+        </div>
 
-  <p>Card sorting was done next to better design my information architecture. This method helped me organize the app's information and make it more intuitive. The digital test was conducted through OptimalSort with 8 participants, where my assumptions were either validated or invalidated.</p>
-  <p>This is then the part when my Sitemap was refined.  I branched off each page of the app and added the sub-pages, color-coded them to introduce different information hierarchies.</p>
+  <!--section 16-->
+      <div>
+          <h3>High-Fidelity Prototyping</h3>
+          <p>During this phase in the project, I went ahead and added color to the app's screens, added UI elements and worked on some alignments, too. Below are images of how some of the app's screens evolved over time after usability testings and multiple iterations.</p>
+            <div class="section 16">
+                <h3 style="text-align:center;">Reducing cognitive overload...</h3>
+                  <p style="text-align:center;">Despite the heavy-data content, I made sure that every element in the screen serve a clear purpose so to not diminish the visibility of the relevant units of information.</p>
+                <picture>
+                  <img src="img/moon app/iteration1.png" alt="design thinking process">
+                </picture>
 
-  <picture>
-      <img src="img/moon app/sitemap.png" alt="Sitemap">
-  </picture>
+                <h3 style="text-align:center;">Making use of the space...</h3>
+                  <p style="text-align:center;">To improve the visuals, filling in negative spaces in the design was one of the solutions. This information architecture will provide users with the necessary information within one screen and not to overlook any important ones.</p>
+                <picture>
+                  <img src="img/moon app/iteration2.png" alt="design thinking process">
+                </picture>
 
-  <p>On to low- to mid-fidelity prototyping, to start fleshing out interaction ideas and forming a flow to my prototypes, I did hand sketching. This method helped me to focus on the high-level functionality of the app while not pondering on other details like spacing and colors.</p>
+                <h3 style="text-align:center;">Eliminating unnecessary steps...</h3>
+                  <p style="text-align:center;">In order to shortened the lengthy sign up process, I omitted some input fields for a quick and easy flow. Labels and assistive icons were also added to tell users of what information is to be entered.</p>
+                <picture>
+                  <img src="img/moon app/iteration3.png" alt="design thinking process">
+                </picture>
 
-  <picture>
-      <img src="img/moon app/sketches.png" alt="Sketches">
-  </picture>
+  <!--section 17-->
+      <div class="section 17">
+            <picture>
+              <img src="img/moon app/testing.png" alt="design process"/>
+            </picture>
+      </div>
 
-  <p>Then I’ve transformed these sketches into a clickable prototype.</p>
+  <!--section 18-->
+      <div>
+          <h3>Testing</h3>
+          <p>The clickable prototype was developed and used for the evaluation of the app's usability. There were a total of 7 participants - 6 moderated remote tests and 1 moderated in-person test. Jakob Nielsen's severity rating scale was used to measure error severity of all gathered data, a Single Ease Question (SEQ) 7-point rating scale was also utilized to quantify the level of difficulty in performing each task. Findings were laid out on a Rainbow Spreadsheet and identified 4 major issues.</p>
+          <!--ADD INTERACTIVE MAIN USABILITY ISSUES-->
+      </div>
 
-  <picture>
-      <img src="img/moon app/prototype1.png" alt="Prototype 1">
-      <img src="img/moon app/prototype2.png" alt="Prototype 2">
-  </picture>
+  <!--section 19-->
+      <div>
+          <h2 style="text-align:center;">Design Sytem</h2>
+          <!--ADD LINK TO VIEW STYLE GUIDE-->
+      </div>
 
-  <p>During this phase in the project – high-fidelity prototyping – color and UI elements were added to the app's screens, and worked on some alignments, too. Below are images of how some of the app's screens evolved after usability testing and multiple iterations.</p>
+  <!--section 20-->
+      <div>
+          <h3>On to the Polished Design</h3>
+          <!--ADD LINK TO FIGMA-->
+      </div>
 
-<h5>Reducing cognitive overload…</h5>
+  <!--section 21-->
+      <div>
+          <h3>Reflection</h3>
+          <p> <b>Hard work pays off.</b> Indeed is this true to those who are ambitious, determined and fearless individual. Some people would say don't look back, but there is a saying wrote by Steve Jobs that goes "You can't connect the dots looking forward; you can only connect them looking backwards." How I got to this point is all because of the past experiences and realizations I had in life and there is no way I can, should or must forget those. I consider this UX design project as an award despite all the challenges along the way. At the end of the day, I know I delivered. Working on this project made me appreciate having worked in the hospitality industry even more. In UX design, it is vital to anticipate users' needs. Providing them what they need even before them knowing it will generally set a positive user experience.</p>
+          <p>Building this product for the first time, I learned a number of things. To mention a few, I learned:</p>
+            <ul>
+              <li> <b>design is never done.</b> Designing is a continuous process, especially if we want to keep up with the trend.</li>
+              <li> <b>expect mistakes and be open to change.</b> I like the idea of constantly receiving new ideas. Implementing changes is only a second step.</li>
+              <li> <b>the simpler the better. Build an experience that feels intuitive.</b> I believe it is human nature that we know what we know. But we are not perfect. As a designer, making things easy and simple is always a way to go.</li>
+              <li> <b>consistency is key.</b> It is so important that, as a designer, we try to reduce cognitive overload in order to avoid frustrations. This not only maintain a good user experience, but it will also add to the simplicity of the design.</li>
+            </ul>
 
-  <p>Despite the heavy-data content, I made sure that every element in the screen serve a clear purpose to not diminish the visibility of the relevant units of information.</p>
 
-  <picture>
-      <img src="img/moon app/iteration1.png" alt="Reduce Cognitive Overload">
-  </picture>
-
-<h5>Making use of the space...</h5>
-
-  <p>To improve the visuals, filling in negative spaces in the design was one of the solutions. This information architecture will provide users with the necessary information within one screen and not overlook any important ones.</p>
-
-  <picture>
-      <img src="img/moon app/iteration2.png" alt="Make Use of Space">
-  </picture>
-
-<h5>Eliminating unnecessary steps...</h5>
-
-  <p>To shorten the lengthy signup process, I omitted some input fields for a quick and easy flow. Labels and assistive icons were also added to tell users what information is to be entered.</p>
-
-  <picture>
-      <img src="img/moon app/iteration3.png" alt="Eliminate Unnecessary Steps">
-  </picture>
+  <!--NEW section ??-->
 
 <h4 id="index.html#projectpage">Typography and Color Palettes</h4>
 
