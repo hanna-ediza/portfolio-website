@@ -54,6 +54,11 @@ a:visited {
   color: #275a55;
 }
 
+a.button:visited {
+  /* visited link */
+  color: #ffffff;
+}
+
 a:hover {
   color: #f7c766;
   text-decoration: underline; /* Underlining when hovering over a link */
