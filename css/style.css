@@ -136,14 +136,6 @@ a:focus {
   clear: both;
 }
 
-.col-md-6 {
-  width: 50%; /* 50% of the container  100 * 6/12 = 50 */
-}
-
-.col-md-3 {
-  width: 25%; /* 50% of the container  100 * 3/12 = 25 */
-}
-
 [class*="col-"] {
   float: left;
 }
@@ -177,4 +169,14 @@ footer {
 .social-icons li {
   display: inline-block;
   padding: 0 10px;
+}
+
+@media only screen and (min-width: 640px) {
+  .col-md-6 {
+    width: 50%; /* 50% of the container  100 * 6/12 = 50 */
+  }
+
+  .col-md-3 {
+    width: 25%; /* 50% of the container  100 * 3/12 = 25 */
+  }
 }
