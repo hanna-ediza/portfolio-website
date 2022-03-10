@@ -164,7 +164,7 @@ header {
 /*navigation bar styling*/
 .logo {
   max-width: 50px;
-  margin-top: 15px;
+  margin-top: 10px;
   float: left;
 }
 
@@ -408,6 +408,11 @@ Medium devices (640px and larger)
       float: right;
       margin-top: 4px;
   }
+
+  .logo {
+      min-width: 641px;
+      margin-top: 10px;
+    }
 
   #hero span {
     display: block;
