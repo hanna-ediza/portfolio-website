@@ -312,7 +312,8 @@ nav > ul > li > a:visited {
 
 /*footer styling*/
 footer {
-  color: ffffff;
+  background-color: #2B685D;
+  color: #ffffff;
   clear: both;
   text-align: center;
   margin-top: 20px;
