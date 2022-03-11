@@ -125,11 +125,12 @@ img {
     background-color: #275a55;
     text-transform: inherit;
     border: 2px solid #275a55;
+    justify-content: center;
     }
 
   .button.cv:hover {
     background-color: #275a55;
-    text-transform: lowercase;
+    text-transform: auto;
     color: #ffffff;
     }
 
@@ -144,12 +145,17 @@ img {
   clear: both;
 }
 
+.row p {
+  color: #fffff
+}
+
 #work.row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a; }
 
 .col-md-6 {
   width: 50%; /* 50% of the container  100 * 6/12 = 50 */
+  text-align: left;
 }
 
 .col-md-3 {
@@ -385,6 +391,24 @@ footer#copyright {
 }
 
 .aboutme h3 {
+  text-align: center;
+}
+
+#about picture {
+  width: 40%
+  height: auto;
+}
+
+#aboutme-2 {
+  background-color: #275A55
+}
+
+#aboutme-2 h3, h5 {
+  color: #ffffff
+}
+
+#aboutme-2 h3 {
+  padding-top: 50px;
   text-align: center;
 }
 
