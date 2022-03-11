@@ -15,6 +15,7 @@ header {
   -webkit-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    0px 2px 4px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         0px 2px 4px 0px rgba(50, 50, 50, 0.75);
+  float: left;
 }
 
   body {
@@ -58,6 +59,7 @@ header {
 /*images*/
   img {
     width: 100%;
+    heigth: auto;
   }
 
 /*links*/
@@ -109,7 +111,7 @@ header {
   }
 
   .button.contact {
-    background-color: transparent;
+    background-color: white;
     color: #275a55;
     text-transform: uppercase;
     border: 2px solid #gray;
@@ -259,7 +261,7 @@ nav > ul > li > a:visited {
 }
 
 #hero h3 {
-  text-align: left;
+  text-align: center;
 }
 #hero p {
   text-align: left;
@@ -268,6 +270,8 @@ nav > ul > li > a:visited {
 main {
   padding-top: 100px;
 }
+
+
 
 @keyframes color-change {
   0% {fill: #edc655;}
@@ -369,7 +373,6 @@ footer#copyright {
 /*about page styling*/
 #about-picture {
     width: 100%;
-    max-width: 100%;
     height: auto;
 }
 
@@ -459,6 +462,10 @@ Medium devices (640px and larger)
   #about-page h3 {
       margin-top: 0;}
 }
+
+  #about-picture {
+      width: 100%;
+      height: auto;
 
 /* ==============================
 Large devices (1024px or larger)
