@@ -164,7 +164,7 @@ body {
 
 /*navigation bar styling*/
 .logo {
-  max-width: 50px;
+  width: 30px;
   margin-top: 10px;
   float: left;
 }
