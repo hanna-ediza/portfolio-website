@@ -63,7 +63,7 @@ img {
 
 /*links*/
   a {
-    color: #275a55;
+    color: #ffffff;
     text-decoration: none; /* No underlining */
   }
 
@@ -323,19 +323,25 @@ footer {
   width: 100%;
 }
 
+.changeFont {
+  color: Crayola;
+  font-family: Lucida;
+  font-style: italic;
+}
+
 footer#contact h3 {
   text-align: center;
-  color: ffffff;
+  color: #ffffff;
 }
 
 footer#contact p {
   text-align: center;
-  color: ffffff;
+  color: #ffffff;
 }
 
 footer#contact p {
   text-align: center;
-  color: ffffff;
+  color: #ffffff;
 }
 
 footer#copyright {
