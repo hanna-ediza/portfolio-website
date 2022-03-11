@@ -56,8 +56,8 @@ body {
     }
 
 /*images*/
-  img {
-    width: 25%;
+img {
+    width: 100%;
     heigth: auto;
   }
 
@@ -228,7 +228,6 @@ nav > ul > li > a:visited {
 }
 
 .navtoggle li .icon {
-  position: absolute;
   right: 0;
   top: 2px;
   font-size: 20px;
@@ -238,31 +237,38 @@ nav > ul > li > a:visited {
 
 /*hero styling*/
 #hero {
-  background-color: #ffe4c4;
+  background-color: #F7C766;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
   text-align: center;
+  font-weight: bold;
 }
 
 #hero span {
   display: block;
+  color: #275A55;
 }
 
 #hero h1 {
   text-align: center; /* Centers text */
   margin: 0;
+  color: #275A55;
 }
 
 #hero h2 {
   text-align: center; /* Centers text */
+  color: #275A55;
 }
 
 #hero h3 {
   text-align: center;
+  color: #275A55;
 }
+
 #hero p {
   text-align: left;
+  color: #275A55;
 }
 
 @keyframes color-change {
@@ -363,9 +369,9 @@ footer#copyright {
 }
 
 /*about page styling*/
-#about-picture {
-    width: 100%;
-    height: auto;
+#about img {
+  width: 40%;
+  height: auto;
 }
 
 .aboutme h3 {
