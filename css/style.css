@@ -67,18 +67,20 @@ a {
   text-decoration: none; /* No underlining */
 }
 
-  a:visited { /* visited link */
-    color: #275a55;
-  }
+a:visited {
+  /* visited link */
+  color: #275a55;
+}
 
 a:hover {
   color: #f7c766;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
-  a:active { /* selected link */
-    color: #994c30;
-  }
+a:active {
+  /* selected link */
+  color: #994c30;
+}
 
 a:hover,
 a:focus {
@@ -226,17 +228,17 @@ nav > ul > li > a:visited {
 }
 
 .navtoggle li:not(:last-child) {
-    display: none;
-    padding: 0 0 10px;
+  display: none;
+  padding: 0 0 10px;
 }
 
 .navtoggle,
 .navtoggle.responsive {
-    position: relative;
+  position: relative;
 }
 
 .navtoggle.responsive nav {
-    padding: 24px 0 0;
+  padding: 24px 0 0;
 }
 
 .navtoggle.responsive li {
@@ -246,7 +248,7 @@ nav > ul > li > a:visited {
 }
 
 .navtoggle.responsive li:last-child {
-    padding: 0 0 10px;
+  padding: 0 0 10px;
 }
 
 .navtoggle li .icon {
@@ -313,8 +315,12 @@ nav > ul > li > a:visited {
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .cloud-front {
@@ -327,7 +333,7 @@ nav > ul > li > a:visited {
 
 @keyframes cloud-move-reverse {
   from {
-    transform: translate(446px,48px);
+    transform: translate(446px, 48px);
   }
   to {
     transform: translate(100px, 48px);
@@ -354,7 +360,7 @@ nav > ul > li > a:visited {
 }
 
 #aboutme-2 {
-  background-color: #275a55
+  background-color: #275a55;
 }
 
 #aboutme-2 h3 {
@@ -399,7 +405,7 @@ nav > ul > li > a:visited {
 
 /*footer styling*/
 footer {
-  background-color: #2B685d;
+  background-color: #2b685d;
   color: #ffffff;
   clear: both;
   text-align: center;
@@ -470,7 +476,6 @@ footer#copyright {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-
   main {
     padding-top: 120px;
   }
@@ -501,7 +506,7 @@ Medium devices (640px and larger)
   }
 
   .navtoggle li:last-child {
-  display: none;
+    display: none;
   }
 
   .navtoggle li:not(:last-child) {
@@ -534,23 +539,26 @@ Medium devices (640px and larger)
   #about-picture {
     width: 40%;
     height: auto;
+  }
 
-/* ==============================
+  /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    scroll-behavior: smooth;
-  }
+  @media only screen and (min-width: 1024px) {
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      scroll-behavior: smooth;
+    }
 
-  .col-lg-7 {
-    width: 60%;
-    float: left;
-  }
+    .col-lg-7 {
+      width: 60%;
+      float: left;
+    }
 
-  .col-lg-5 {
-    width: 40%;
+    .col-lg-5 {
+      width: 40%;
+    }
   }
+}
