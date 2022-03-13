@@ -147,16 +147,22 @@ img {
 }
 
 .row p {
-  color: #ffffff
+  color: #275a55;
+}
+
+#work.row h2, h3, h4, h5, p {
+  color: #275a55;
 }
 
 #work.row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a; }
+  border-bottom: 1px solid #4a4a4a;
+}
 
 .col-md-6 {
   width: 50%; /* 50% of the container  100 * 6/12 = 50 */
   text-align: left;
+  color: #ffffff;
 }
 
 .col-md-3 {
@@ -245,13 +251,9 @@ nav > ul > li > a:visited {
   padding-right: 0;
 }
 
-.col-md-6 col-lg-5 p {
-  color: #275a55;
-}
-
 /*hero styling*/
 #hero {
-  background-color: #F7C766;
+  background-color: #275A55;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -261,28 +263,28 @@ nav > ul > li > a:visited {
 
 #hero span {
   display: block;
-  color: #275A55;
+  color: #F7C766;
 }
 
 #hero h1 {
   text-align: center; /* Centers text */
   margin: 0;
-  color: #275A55;
+  color: #F7C766;
 }
 
 #hero h2 {
   text-align: center; /* Centers text */
-  color: #275A55;
+  color: #F7C766;
 }
 
 #hero h3 {
   text-align: center;
-  color: #275A55;
+  color: #F7C766;
 }
 
 #hero p {
   text-align: left;
-  color: #275A55;
+  color: #F7C766;
 }
 
 @keyframes color-change {
@@ -337,11 +339,24 @@ nav > ul > li > a:visited {
   height: auto;
 }
 
+#aboutme-1 img {
+  width: 30px;
+  height: auto;
+}
+
 #aboutme-2 {
   background-color: #275A55
 }
 
-#aboutme-2 h3, h5 {
+#aboutme-2 h3 {
+  color: #ffffff
+}
+
+#aboutme-2 h4 {
+  color: #ffffff
+}
+
+#aboutme-2 p {
   color: #ffffff
 }
 
@@ -350,6 +365,9 @@ nav > ul > li > a:visited {
   text-align: center;
 }
 
+#about.row p {
+  color: #ffffff;
+}
 
 /*moon page styling*/
 #moon main {
@@ -369,7 +387,6 @@ nav > ul > li > a:visited {
 .section 4 {
   background-color: #35435D;
 }
-
 
 /*footer styling*/
 footer {
@@ -495,15 +512,6 @@ Medium devices (640px and larger)
     display: block;
   }
 
-  .col-md-6 {
-    width: 50%;
-  }
-
-  .col-md-3 {
-    width: 25%; /* 50% of the container  100 * 3/12 = 25 */
-  }
-  }
-
   .row::after {
       content: "";
       clear: both;
@@ -515,7 +523,7 @@ Medium devices (640px and larger)
 }
 
   #about-picture {
-      width: 100%;
+      width: 40%;
       height: auto;
 
 /* ==============================
