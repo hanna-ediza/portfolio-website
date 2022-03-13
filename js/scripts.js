@@ -1,3 +1,4 @@
+
 console.log("You are currently viewing Hanna's portfolio site");
 
 function menuToggle() {

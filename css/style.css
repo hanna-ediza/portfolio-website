@@ -58,7 +58,7 @@ body {
 /*images*/
 img {
     width: 100%;
-    heigth: auto;
+    height: auto;
   }
 
 /*links*/
@@ -100,7 +100,7 @@ img {
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid #gray; /* width of the border, type, color */
+    border-bottom: 2px solid gray; /* width of the border, type, color */
     transition: 0.2s opacity;
   }
 
@@ -113,7 +113,7 @@ img {
     background-color: transparent;
     color: #275a55;
     text-transform: uppercase;
-    border: 2px solid #gray;
+    border: 2px solid gray;
     }
 
   .button.contact:hover {
@@ -130,7 +130,7 @@ img {
 
   .button.cv:hover {
     background-color: #275a55;
-    text-transform: auto;
+    text-transform: capitalize;
     color: #ffffff;
     }
 
@@ -138,6 +138,7 @@ img {
 .container {
   padding: 0 15px;
   margin: auto;
+  scroll-behavior: smooth;
 }
 
 .row {
@@ -146,7 +147,7 @@ img {
 }
 
 .row p {
-  color: #fffff
+  color: #ffffff
 }
 
 #work.row {
@@ -171,7 +172,7 @@ img {
 /*navigation bar styling*/
 .logo {
   width: 30px;
-  margin-top: 10px;
+  margin-top: 25px;
   float: left;
 }
 
@@ -188,6 +189,7 @@ img {
 .navigation li:not(:last-child) {
   margin-right: 1.5rem;
 }
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -316,6 +318,56 @@ nav > ul > li > a:visited {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+
+/*about page styling*/
+#about img {
+  width: 40%;
+  height: auto;
+}
+
+.aboutme h3 {
+  text-align: center;
+}
+
+#about picture {
+  width: 40%;
+  height: auto;
+}
+
+#aboutme-2 {
+  background-color: #275A55
+}
+
+#aboutme-2 h3, h5 {
+  color: #ffffff
+}
+
+#aboutme-2 h3 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+/*moon page styling*/
+#moon main {
+  padding-top: 0px;
+}
+
+#moon img {
+  padding: 50px 0;
+}
+
+.section 2 {
+  background-color: #697386;
+  color: ffffff;
+  text-align: center;
+}
+
+.section 4 {
+  background-color: #35435D;
+}
+
+
 /*footer styling*/
 footer {
   background-color: #2B685D;
@@ -330,7 +382,7 @@ footer {
 }
 
 .changeFont {
-  color: Crayola;
+  color: #F7C766;
   font-family: Lucida;
   font-style: italic;
 }
@@ -367,7 +419,7 @@ footer#copyright {
 
 .icon {
   padding: 0 10px 0 10px;
-  fill: 000000;
+  fill: #000000;
 }
 
 .linkedin {
@@ -384,52 +436,6 @@ footer#copyright {
   padding-left: 10px;
 }
 
-/*about page styling*/
-#about img {
-  width: 40%;
-  height: auto;
-}
-
-.aboutme h3 {
-  text-align: center;
-}
-
-#about picture {
-  width: 40%
-  height: auto;
-}
-
-#aboutme-2 {
-  background-color: #275A55
-}
-
-#aboutme-2 h3, h5 {
-  color: #ffffff
-}
-
-#aboutme-2 h3 {
-  padding-top: 50px;
-  text-align: center;
-}
-
-/*moon page styling*/
-#moon main {
-  padding-top: 0px;
-}
-
-#moon img {
-  padding: 50px 0;
-}
-
-.section 2 {
-  background-color: #697386;
-  color: ffffff;
-  text-align: center;
-}
-
-.section 4 {
-  background-color: #35435D;
-}
 
 /*media queries*/
 /* ==============================
@@ -450,26 +456,36 @@ Medium devices (640px and larger)
     min-width: 641px;
   }
 
-  nav > ul {
-    margin: 1em 0;
-  }
-
   nav {
       width: auto;
       float: right;
       margin-top: 4px;
   }
 
+  nav > ul {
+      margin: 1em 0;
+  }
+
   nav > ul > li {
     display: inline-block;
+    padding: 0px;
+    border-top: 0px;
+  }
+
+  .navtoggle li:last-child) {
+  display: none;
   }
 
   .navtoggle li:not(:last-child) {
-  display: none;
-}
-
-  .navtoggle li:not(:last-child) {
     display: inline-block;
+  }
+
+  .navtoggle li .icon {
+    display: block;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
   }
 
   #hero span {
@@ -508,6 +524,7 @@ Large devices (1024px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    scroll-behavior: smooth;
   }
 
   .col-lg-7 {
