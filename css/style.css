@@ -245,6 +245,9 @@ nav > ul > li > a:visited {
   padding-right: 0;
 }
 
+.col-md-6 col-lg-5 p {
+  color: #275a55;
+}
 
 /*hero styling*/
 #hero {
