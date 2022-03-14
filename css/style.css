@@ -184,7 +184,6 @@ p {
 .col-md-6 {
   width: 50%; /* 50% of the container  100 * 6/12 = 50 */
   text-align: left;
-  color: #ffffff;
 }
 
 .col-md-3 {
@@ -376,23 +375,23 @@ nav > ul > li > a:hover {
   height: auto;
 }
 
-#aboutme-2 {
+.about-me-green-theme {
   background-color: #275a55;
 }
 
-#aboutme-2 h3 {
+.about-me-green-theme h3 {
   color: #ffffff;
 }
 
-#aboutme-2 h4 {
+.about-me-green-theme h4 {
   color: #ffffff;
 }
 
-#aboutme-2 p {
+.about-me-green-theme p {
   color: #ffffff;
 }
 
-#aboutme-2 h3 {
+.about-me-green-theme h3 {
   padding-top: 50px;
   text-align: center;
 }
@@ -486,6 +485,10 @@ footer#copyright {
   float: right;
   text-align: left;
   padding-left: 10px;
+}
+
+.text-align-center {
+  text-align: center;
 }
 
 /*media queries*/
