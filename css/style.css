@@ -61,6 +61,21 @@ img {
   height: auto;
 }
 
+#responsive-photo {
+  width: 260px;
+  height: auto;
+}
+
+#abouticon {
+  width: 130px;
+  height: auto;
+}
+
+#moonlogo {
+  width: 150px;
+  height: auto;
+}
+
 /*links*/
 a {
   color: #ffffff;
