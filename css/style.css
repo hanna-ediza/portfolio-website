@@ -1,9 +1,9 @@
 /*
 Colors used:
 Primary color (Deep Jungle Green): #275a55;
-Secondary color (Jungle Green): #2B685D;
-Tertiary color (Crayola): #F7C766;
-Project background color (White): #FFFFFF
+Secondary color (Jungle Green): #2b685d;
+Tertiary color (Crayola): #f7c766;
+Project background color (White): #ffffff
 */
 
 header {
@@ -237,6 +237,13 @@ nav > ul > li > a:visited {
   text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
+}
+
+nav > ul > li > a:hover {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f7c766;
 }
 
 .navtoggle {
