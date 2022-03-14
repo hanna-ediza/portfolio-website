@@ -184,7 +184,6 @@ p {
 .col-md-6 {
   width: 50%; /* 50% of the container  100 * 6/12 = 50 */
   text-align: left;
-  color: #ffffff;
 }
 
 .col-md-3 {
@@ -202,12 +201,6 @@ p {
   width: 30px;
   margin-top: 25px;
   float: left;
-}
-
-.nav {
-  display: inline-block;
-  list-style-type: none;
-  margin: 30px;
 }
 
 .navigation li {
@@ -240,15 +233,14 @@ nav > ul > li > a:visited {
 }
 
 nav > ul > li > a:hover {
-  padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #f7c766;
 }
 
 .navtoggle {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navtoggle li:not(:last-child) {
@@ -266,9 +258,9 @@ nav > ul > li > a:hover {
 }
 
 .navtoggle.responsive li {
-    display: block;
-    padding: 10px 0;
-    border-top: 1px solid #275a55;
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #275a55;
 }
 
 .navtoggle.responsive li:last-child {
@@ -383,23 +375,23 @@ nav > ul > li > a:hover {
   height: auto;
 }
 
-#aboutme-2 {
+.about-me-green-theme {
   background-color: #275a55;
 }
 
-#aboutme-2 h3 {
+.about-me-green-theme h3 {
   color: #ffffff;
 }
 
-#aboutme-2 h4 {
+.about-me-green-theme h4 {
   color: #ffffff;
 }
 
-#aboutme-2 p {
+.about-me-green-theme p {
   color: #ffffff;
 }
 
-#aboutme-2 h3 {
+.about-me-green-theme h3 {
   padding-top: 50px;
   text-align: center;
 }
@@ -495,6 +487,10 @@ footer#copyright {
   padding-left: 10px;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 /*media queries*/
 /* ==============================
 Medium devices (640px and larger)
@@ -560,28 +556,28 @@ Medium devices (640px and larger)
   }
 }
 
-  #about-picture {
-    width: 40%;
-    height: auto;
-  }
+#about-picture {
+  width: 40%;
+  height: auto;
+}
 
-  /* ==============================
+/* ==============================
 Large devices (1024px or larger)
 ================================= */
-  @media only screen and (min-width: 1024px) {
-    .container {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-      scroll-behavior: smooth;
-    }
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    scroll-behavior: smooth;
+  }
 
-    .col-lg-7 {
-      width: 60%;
-      float: left;
-    }
+  .col-lg-7 {
+    width: 60%;
+    float: left;
+  }
 
-    .col-lg-5 {
-      width: 40%;
-    }
+  .col-lg-5 {
+    width: 40%;
+  }
 }
