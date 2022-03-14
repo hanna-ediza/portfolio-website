@@ -204,12 +204,6 @@ p {
   float: left;
 }
 
-.nav {
-  display: inline-block;
-  list-style-type: none;
-  margin: 30px;
-}
-
 .navigation li {
   display: inline-block;
   padding: 10px 10px;
@@ -247,8 +241,8 @@ nav > ul > li > a:hover {
 }
 
 .navtoggle {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navtoggle li:not(:last-child) {
@@ -266,9 +260,9 @@ nav > ul > li > a:hover {
 }
 
 .navtoggle.responsive li {
-    display: block;
-    padding: 10px 0;
-    border-top: 1px solid #275a55;
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #275a55;
 }
 
 .navtoggle.responsive li:last-child {
@@ -560,28 +554,28 @@ Medium devices (640px and larger)
   }
 }
 
-  #about-picture {
-    width: 40%;
-    height: auto;
-  }
+#about-picture {
+  width: 40%;
+  height: auto;
+}
 
-  /* ==============================
+/* ==============================
 Large devices (1024px or larger)
 ================================= */
-  @media only screen and (min-width: 1024px) {
-    .container {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-      scroll-behavior: smooth;
-    }
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    scroll-behavior: smooth;
+  }
 
-    .col-lg-7 {
-      width: 60%;
-      float: left;
-    }
+  .col-lg-7 {
+    width: 60%;
+    float: left;
+  }
 
-    .col-lg-5 {
-      width: 40%;
-    }
+  .col-lg-5 {
+    width: 40%;
+  }
 }
